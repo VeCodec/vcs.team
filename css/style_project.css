@@ -1,0 +1,29 @@
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    animation: colorChange 10s ease-in-out infinite alternate;
+    }
+    
+    @keyframes colorChange {
+        from {background-color: black;}
+        to   {background-color: green;}
+    }
+    
+    .gradient {
+        animation-name: gradientColorChange;
+    }
+    
+    @keyframes gradientColorChange {
+        0%   {background: linear-gradient(to right, black, green);}
+        50%  {background: linear-gradient(to left, green, black);}
+        100% {background: linear-gradient(to right, black, green);}
+}

@@ -1,0 +1,30 @@
+body{
+	color:white;
+	font-family: Comic Sans MS;
+		/*background-image: ;url('data\\p1.jpg'), url('data\\p1.jpg');*/
+        background-repeat: no-repeat;
+		background-color:/*#1C1C1C*/#333333;
+        background-size: width=1000px, height=1000px;
+}
+
+
+
+h1, h2, h3 {
+	text-align: center;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	font-size: 16px;
+	color: red;
+}
+
+
+h1, h2, h3 {
+	text-align: center;
+	color: red;
+}
+h3 {
+	font-size: 16px;
+}

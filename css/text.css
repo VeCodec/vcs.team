@@ -1,0 +1,17 @@
+p {color: white;font-family: Comic Sans MS;}
+h1, h2, h3, h4, h5, h6{color: white;font-family: Comic Sans MS;}
+text{color: white;font-family: Comic Sans MS;}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Comic Sans MS', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+/*Начальный текст/Название страиницы*/
+#heading {
+	margin: 30px 0;
+	padding-left: 20px;
+}

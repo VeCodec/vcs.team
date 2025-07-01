@@ -1,0 +1,11 @@
+/*wrapper, icon и header*/
+#wrapper {
+	max-width: 1960px;
+	margin: auto;
+}
+#icon {
+	max-width: 1980px;
+	margin: auto;}
+header {
+	padding: 20px 0;
+}
